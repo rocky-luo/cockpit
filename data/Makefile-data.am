@@ -45,6 +45,7 @@ EXTRA_DIST += 						\
 	data/cockpit-testing.service.in		\
 	data/com.redhat.Cockpit.conf.in		\
 	data/config				\
+	data/cockpit.pam.insecure               \
 	$(dbusconf_DATA)			\
 	$(NULL)
 

@@ -57,7 +57,7 @@ Then you can build the sources and install them, as usual:
 
     $ make
     # make install
-    # cp test/cockpit.pam /etc/pam.d/cockpit
+    # cp data/cockpit.pam.insecure /etc/pam.d/cockpit
 
 This will install Cockpit and all support files, and will install a
 simplistic PAM configuration.
